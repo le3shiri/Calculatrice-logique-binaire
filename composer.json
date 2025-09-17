@@ -12,6 +12,6 @@
     "scripts": {
         "build": "composer install --no-dev --optimize-autoloader",
         "validate": "composer validate",
-        "save": "php bin/calc.php $(cat samples/input.txt) --json > samples/output.json"
+        "save": "php bin/calc.php (Get-Content samples/input.txt) --json | Set-Content samples/output.json"
     }
 }
