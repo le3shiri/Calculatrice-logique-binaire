@@ -78,8 +78,8 @@ if ($isJson) {
     exit(0);
 }
 
-echo "Entrée A : {$a} (" . Converter::toBinary($a, $max_bits) . ")\n";
-echo "Entrée B : {$b} (" . Converter::toBinary($b, $max_bits) . ")\n";
+echo "Entree A : {$a} (" . Converter::toBinary($a, $max_bits) . ")\n";
+echo "Entree B : {$b} (" . Converter::toBinary($b, $max_bits) . ")\n";
 echo "A ET B : {$and} (" . Converter::toBinary($and, $max_bits) . ")\n";
 echo "A OU B : {$or} (" . Converter::toBinary($or, $max_bits) . ")\n";
 echo "A XOR B : {$xor} (" . Converter::toBinary($xor, $max_bits) . ")\n";
